@@ -12,6 +12,7 @@ export default function Home() {
       <main className="pt-24 relative min-h-screen  text-white flex flex-col items-center justify-center px-6">
         {/* Background Gradient */}
         <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-900 via-black to-purple-900" />
+        <h1 className="text-red-500">I Love You schatzi</h1>
 
         <motion.h1
           initial={{ opacity: 0, y: 50 }}
