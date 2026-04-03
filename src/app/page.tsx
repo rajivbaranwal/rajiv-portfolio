@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <Projects />
       <main className="pt-24 relative min-h-screen  text-white flex flex-col items-center justify-center px-6">
         {/* Background Gradient */}
         <div className="absolute inset-0 -z-10 bg-gradient-to-br from-blue-900 via-black to-purple-900" />
@@ -47,6 +46,7 @@ export default function Home() {
           </button>
         </motion.div>
       </main>
+      <Projects />
     </>
   );
 }
